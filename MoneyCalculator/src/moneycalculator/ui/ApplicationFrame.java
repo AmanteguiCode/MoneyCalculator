@@ -1,6 +1,6 @@
-package moneycalculator.UI;
+package moneycalculator.ui;
 
-public interface AplicationFrame {
+public interface ApplicationFrame {
     
     public void execute();
 

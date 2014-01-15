@@ -1,8 +1,8 @@
 package moneycalculator.control;
 
-import moneycalculator.UI.CurrencyDialog;
-import moneycalculator.UI.MoneyDialog;
-import moneycalculator.UI.MoneyViewer;
+import moneycalculator.ui.CurrencyDialog;
+import moneycalculator.ui.MoneyDialog;
+import moneycalculator.ui.MoneyViewer;
 import moneycalculator.model.Currency;
 import moneycalculator.model.Money;
 import moneycalculator.model.Number;
