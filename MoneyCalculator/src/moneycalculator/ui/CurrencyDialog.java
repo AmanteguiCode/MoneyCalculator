@@ -1,4 +1,4 @@
-package moneycalculator.UI;
+package moneycalculator.ui;
 
 import moneycalculator.model.Currency;
 
