@@ -10,7 +10,7 @@ public class CurrencySet implements Iterable<Currency> {
     private static HashSet<Currency> set;
 
     private CurrencySet() {
-        set = new HashSet<>();
+        set = new HashSet<Currency>();
     }
 
     public static CurrencySet getInstance() {
@@ -52,7 +52,7 @@ public class CurrencySet implements Iterable<Currency> {
     }
 
     public Currency[] currencyList(String string) {
-        ArrayList<Currency> list = new ArrayList<>();
+        ArrayList<Currency> list = new ArrayList<Currency>();
         for (Currency currency : set) {
             if (currency.getName().toLowerCase().contains(string.toLowerCase()))
                 list.add(currency);

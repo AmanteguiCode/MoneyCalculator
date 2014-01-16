@@ -108,7 +108,7 @@ public class Application {
     }
 
     private void createCommands(ApplicationFrame frame, ExchangeRateLoader exchangeRateLoader) {
-        commandMap = new HashMap<>();
+        commandMap = new HashMap<String, Command>();
         commandMap.put("calculate", new CalculateCommand(
                 frame.getMoneyDialog(),
                 frame.getCurrencyDialog(),
