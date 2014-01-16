@@ -1,4 +1,4 @@
-package moneycalculator.UI;
+package moneycalculator.ui;
 
 public interface ActionFactory<Entity> {
 

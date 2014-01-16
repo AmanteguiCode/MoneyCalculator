@@ -1,8 +1,8 @@
-package moneycalculator.UI.console;
+package moneycalculator.ui.console;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import moneycalculator.UI.ActionFactory;
+import moneycalculator.ui.ActionFactory;
 import moneycalculator.ui.ApplicationFrame;
 import moneycalculator.ui.CurrencyDialog;
 import moneycalculator.ui.MoneyDialog;
