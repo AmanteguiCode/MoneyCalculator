@@ -1,9 +1,9 @@
 package moneycalculator.ui.swing;
 
-import moneycalculator.ui.;
 import java.awt.*;
 import java.awt.event.ActionListener;
 import javax.swing.*;
+import moneycalculator.UI.ActionFactory;
 import moneycalculator.ui.ApplicationFrame;
 import moneycalculator.ui.CurrencyDialog;
 import moneycalculator.ui.MoneyDialog;
